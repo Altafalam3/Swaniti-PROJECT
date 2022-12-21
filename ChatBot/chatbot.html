@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/070428bd88.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="chatbot.css">
+    <title>ChatBot </title>
+</head>
+<body>
+   
+  
+<div id="google_translate_element"></div>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+    <section class="msger">
+        <header class="msger-header">
+          <div class="msger-header-title">
+            <img src="robot.png" alt="robot" >
+            <p>ChatBot</p>
+          </div>
+        </header>
+        <main class="msger-chat">
+          <div class="msg left-msg">
+            <div
+             class="msg-img"
+             style="background-image: url(bot.png)"></div>
+            <div class="msg-bubble">
+              <div class="msg-info">
+                <div class="msg-info-name">BOT</div>
+                <div class="msg-info-time">12:45</div>
+              </div>
+              <div class="msg-text">
+                Hi, welcome to ChatBot!! Go ahead and send me a message. 😄
+              </div>
+            </div>
+          </div>
+          <div class="msg right-msg">
+            <div
+             class="msg-img"
+             style="background-image: url(user.png)"
+            ></div>
+            <div class="msg-bubble">
+              <div class="msg-info">
+                <div class="msg-info-name">Clash of code</div>
+                <div class="msg-info-time">12:46</div>
+              </div>
+      
+              <div class="msg-text">
+                You can ask questions about us!
+              </div>
+            </div>
+          </div>
+        </main>
+        <form class="msger-inputarea">
+          <input type="text" class="msger-input" placeholder="Enter your message...">
+          <button type="submit" class="msger-send-btn"><i class="fa fa-paper-plane"></i></button>
+        </form>
+      </section>
+
+      <script src="chatbot.js"></script>
+</body>
+</html>

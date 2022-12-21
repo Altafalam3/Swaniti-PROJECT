@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+    <title>E-Learning</title>
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="flex flex-row justify-between pt-5">
+        <h1 class="text-xl font-bold w-20 ml-5">
+          <a href="../LP/index.html"> <img src="images/SWANITI.png" alt="" srcset=""></a>
+        </h1>
+        <!--Links-->
+        <div class="hidden md:flex md:flex-row">
+          <div class="links-container space-x-12">
+            <a href="#" class="hover:underline">Home</a>
+            <a href="../Jobs-Portal/jobs.html" class="hover:underline">Jobs</a>
+            <a href="../Course-quiz/course.html" class="hover:underline">Courses</a>
+          </div>
+        </div>
+        <!--Sign-in & Sign-up-->
+        <div class="md:flex md:flex-row md:-mr-28 md:justify-between md:-mt-2 hidden">
+          <div class="si-su space-x-4">
+            <button
+              class="bg-transparent justify-between p-2 font-bold hover:text-grey hover:underline"
+            > <a href="../Lg-Sn/login.html">Log In</a>
+              
+            </button>
+            <button
+              class="bg-blue rounded-full text-white p-2 px-6 hover:bg-lightBlue"
+            ><a href="../Lg-Sn/Signup.html">Sign Up</a>
+              
+            </button>
+          </div>
+        </div>
+        <!--Hamburger Menu-->
+        <div class="hamburger mr-10" id="ham"></div>
+      </nav>
+      <!--Opening Hamburger-->
+      <section>
+        <div id="open-hamburger" class="bg-white mt-4 flex-col w-3/4 mx-auto p-10 hidden text-center">
+          <a href="#" class="hover:underline">Home</a>
+          <a href="../Jobs-Portal/index.html" class="hover:underline">Jobs</a>
+          <a href="../Course-quiz/course.html" class="hover:underline">Courses</a>
+          <button
+              class="bg-transparent justify-between p-2 font-bold hover:text-grey"
+            >
+              Sign In
+            </button>
+            <button
+              class="bg-blue rounded-md text-white p-2 hover:bg-lightBlue"
+            >
+              Sign Up
+            </button>
+        </div>
+        
+      </section>
+
+      <!--HERO SECTION-->
+      <section class="mt-20">
+        <!--Contains Photo and Rest-->
+        <div class="flex flex-col-reverse md:flex-row">
+            <div class="hero-text flex flex-col pl-10">
+                <h1 class="font-bold md:text-6xl text-4xl mt-4">
+                    Grow Your Skills,
+                </h1>
+                <h1 class="font-bold md:text-6xl text-4xl">
+                    Define Your Future
+                </h1>
+                <p class="text-gray-500 mt-4 max-w-2xl mr-10">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi eum dolor illo saepe consectetur possimus tenetur magnam consequuntur doloribus corporis eaque ea quidem fugiat, nostrum voluptatum nesciunt nam reprehenderit alias repellat porro! Eos, minus magni! Fugiat, veniam dicta labore reiciendis non fugit eius placeat, temporibus, quis quidem velit magnam nulla.</p>
+
+                <button class="rounded-full p-4 bg-blue w-40 mt-4 text-white hover:bg-lightBlue">
+                  <a href="../Course-quiz/course.html" >Explore Courses</a>
+                </button>
+            </div>
+            <div class="">
+                <img src="./images/christina-wocintechchat-com-0Zx1bDv5BNY-unsplash.jpg" alt="" class="max-h-96 rounded-md mx-auto">
+            </div>
+        </div>
+      </section>
+
+      <section class="mt-20 pl-10 md:pl-0">
+        <div class="flex flex-col items-center">
+            <h1 class="font-bold text-3xl">
+                Achieve Your Goals With <span class="font-extrabold italic">Swaniti</span>
+            </h1>
+            <p class="text-gray-400 max-w-2xl mt-2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae iure blanditiis rerum sed praesentium voluptatibus quasi. Voluptas atque placeat doloremque.
+            </p>
+        </div>
+      </section>
+
+      <!--3 BOXES-->
+      <section class="">
+        <div class="flex flex-col md:flex-row space-x-4 justify-evenly mt-10">
+            <div class="flex flex-col shadow-sm max-w-xs pl-14 pr-10">
+                <img src="./images/e-learning.svg" alt="Learning SVG" class="w-5">
+                <h1 class="font-semibold mt-2">Learn the latest skills</h1>
+                <p class="text-gray-500">
+                    Learn latest skills from our courses available for free for women.
+                </p>
+            </div>
+
+            <div class="flex flex-col shadow-sm max-w-xs pl-10 pr-10">
+                <img src="./images/running.svg" alt="Learning SVG" class="w-5">
+                <h1 class="font-semibold mt-2">Get ready for career</h1>
+                <p class="text-gray-500">
+                    Become career ready by attending mock interviews
+                </p>
+            </div>
+
+            <div class="flex flex-col shadow-sm max-w-xs pl-10 pr-10">
+                <img src="./images/briefcase.svg" alt="Learning SVG" class="w-5">
+                <h1 class="font-semibold mt-2">Apply for jobs</h1>
+                <p class="text-gray-500">
+                    Apply for jobs on our career portal.
+                </p>
+            </div>
+        </div>
+      </section>
+
+
+      <!--Our Popular Courses-->
+      <section class="pl-10 pr-10 mt-10">
+        <div class="">
+            <h1 class="font-extrabold text-3xl text-center">
+                Our Popular Courses
+            </h1>
+        </div>
+      </section>
+<!-- 3 boxes  -->
+<section class="">
+  <div class="flex flex-col md:flex-row md:justify-between items-center mt-10">
+      <div class="flex flex-col shadow-sm max-w-xs pl-14 pr-10 w-180
+       h-200 rounded-md">
+        <img src="images/course1.png" alt="" srcset="">
+      </div>
+      <div class="flex flex-col shadow-sm max-w-xs pl-14 pr-10 w-120 h-200">
+        <img src="images/course1.png" alt="" srcset="">
+      </div>
+      <div class="flex flex-col shadow-sm max-w-xs pl-14 pr-10 w-100 h-200">
+        <img src="images/course1.png" alt="" srcset="">
+      </div>
+      </div>
+  
+</section>
+<!--Testimonials-->
+<section class="p-20 mt-10">
+  <!--All testimonials container-->
+  <div class="flex flex-col md:flex-row md:space-x-4" id="testimonials">
+    <!--Testimony 1-->
+    <div class="flex flex-col border-2 rounded-md p-8">
+      <div class="flex flex-row justify-start space-x-4">
+        <img src="./images/UserAvatar.svg" alt="" />
+        <div class="flex flex-col">
+          <h1 class="text-sm font-bold text-violet mt-1">Sarah Andrews</h1>
+        </div>
+      </div>
+      <p class="mt-4">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum aspernatur totam ab sed exercitationem nulla, ratione dolorem ipsam facilis deserunt!
+      </p>
+    </div>
+    <!--Testimony 2-->
+    <div class="flex flex-col border-2 rounded-md p-8">
+      <div class="flex flex-row justify-start space-x-4">
+        <img src="./images/UserAvatar2.svg" alt="" />
+        <div class="flex flex-col">
+          <h1 class="text-sm font-bold text-violet mt-1">Mathew Higgins</h1>
+        </div>
+      </div>
+      <p class="mt-4">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum aspernatur totam ab sed exercitationem nulla, ratione dolorem ipsam facilis deserunt!
+      </p>
+    </div>
+    <!--Testimony 3-->
+    <div class="flex flex-col border-2 rounded-md p-8">
+      <div class="flex flex-row justify-start space-x-4">
+        <img src="./images/UserAvatar3.svg" alt="" />
+        <div class="flex flex-col">
+          <h1 class="text-sm font-bold text-violet mt-1">Janice Dave</h1>
+        </div>
+      </div>
+      <p class="mt-4">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum aspernatur totam ab sed exercitationem nulla, ratione dolorem ipsam facilis deserunt!
+      </p>
+    </div>
+  </div>
+</section>
+
+<footer>
+
+
+</footer>
+
+
+<!--DC, TODO, CHATBOT-->
+<div class="fixed right-3 bottom-3">
+  <a href="https://discord.gg/NktknePSzE"><img src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/625e5fcef7ab80b8c1fe559e_Discord-Logo-Color.png" alt="" id="dc" class="w-14"></a>
+  <div class="absolute bottom-6 mb-12 right-3 -mr-2">
+    <a href="../ToDo/todo.html"><img src=".//images/to-do-icon.svg" alt="" id="dc" class="w-12"></a>
+  </div>
+  <div class="absolute bottom-6 mb-28 right-3 -mr-2">
+    <a href="../ChatBot/chatbot.html"><img src="../ChatBot/robot.png" alt="" id="dc" class="w-12"></a>
+  </div>
+</div>
+      <!--JAVASCRIPT-->
+      <script src="./index.js"></script>
+
+      <a href="">
+<img src="" alt="" srcset="">
+      </a>
+</body>
+</html>
